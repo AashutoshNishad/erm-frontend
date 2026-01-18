@@ -1,0 +1,141 @@
+.container {
+  padding: 24px;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 12px;
+}
+
+.controls-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.refresh-btn {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.form {
+  margin-bottom: 18px;
+  padding: 16px;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.form textarea {
+  min-height: 60px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background: #1976d2;
+  color: white;
+  font-weight: 500;
+}
+
+button.secondary {
+  background: transparent;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+button.cancel-btn {
+  background: transparent;
+  border: none;
+  color: #666;
+  cursor: pointer;
+}
+
+button.danger {
+  background: #e53935;
+  border: none;
+}
+
+button.danger-outline {
+  background: transparent;
+  border: 1px solid #e53935;
+  color: #e53935;
+}
+
+.suppliers-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(15, 15, 15, 0.04);
+}
+
+.suppliers-table th,
+.suppliers-table td {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.suppliers-table thead th {
+  background: #fafafa;
+  font-weight: 600;
+}
+
+.status-active {
+  color: #087f5b;
+  font-weight: 600;
+}
+
+.status-inactive {
+  color: #c23934;
+  font-weight: 600;
+}
+
+.actions button {
+  margin-right: 6px;
+}
+.readonly {
+  background: #f6f6f6;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.hint {
+  font-size: 12px;
+  color: #777;
+  margin-left: 8px;
+}
