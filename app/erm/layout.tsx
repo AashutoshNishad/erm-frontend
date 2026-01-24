@@ -10,8 +10,11 @@ export default function ErmLayout({
         <a href="/erm/items">Items</a> |{" "}
         <a href="/erm/categories">Categories</a> | {" "}
         <a href="/erm/Supplier">Supplier</a> | {" "}
-        <a href="/erm/Requirements">Purchase Order</a>
+        <a href="/erm/Requirements">Purchase Order</a> | {" "}
         <a href="/erm/view-purchase-orders"> View Orders </a>
+        
+        {"|"}  <a href="/erm/purchasebill">Bills</a>
+        
       </nav>
       <hr />
       {children}

@@ -14,6 +14,8 @@ export default function HomePage() {
         <li>
           <a href="/erm/categories">Categories</a>
         </li>
+        
+        
       </ul>
     </div>
   );

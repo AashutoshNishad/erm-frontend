@@ -149,7 +149,7 @@ export default function PurchaseBillsDashboard() {
                     <button
                       style={{ marginLeft: 6 }}
                       onClick={() =>
-                        router.push(`/purchase-bills/${bill._id}`)
+                        router.push(`/erm/purchasebill/${bill._id}/pay`)
                       }
                     >
                       Pay
